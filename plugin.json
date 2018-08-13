@@ -1,0 +1,8 @@
+{
+  "name"              :"HelloWorld",
+  "description"       :"Demo",
+  "namespace"         :"HelloWorld",
+  "author"            :"Hanganu Alin",
+  "type"              :"template",
+  "serviceProvider"   :"HelloWorld\\Providers\\HelloWorldServiceProvider"
+}
