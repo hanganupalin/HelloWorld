@@ -6,7 +6,7 @@
  * Time: 11:59
  */
 
-namespace HelloWordl\Providers;
+namespace HelloWorld\Providers;
 
 use Plenty\Plugin\RouteServiceProvider;
 use Plenty\Plugin\Routing\Router;
