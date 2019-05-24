@@ -6,17 +6,17 @@
  * Time: 11:57
  */
 
-namespace HelloWorld\Providers;
+namespace HelloWorldDemo\Providers;
 
 use Plenty\Plugin\ServiceProvider;
 
-class HelloWorldServiceProvider extends ServiceProvider{
+class HelloWorldDemoServiceProvider extends ServiceProvider{
 
     /**
      * Register service provider
      */
     public function register(){
         $app = $this->getApplication();
-        $app->register(HelloWorldRouteServiceProvider::class);
+        $app->register(HelloWorldDemoRouteServiceProvider::class);
     }
 }

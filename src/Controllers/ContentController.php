@@ -5,7 +5,7 @@
  * Date: 13.08.18
  * Time: 12:02
  */
-namespace HelloWorld\Controllers;
+namespace HellHelloWorldDemooWorld\Controllers;
 
 
 use Plenty\Plugin\Controller;
@@ -15,10 +15,10 @@ class ContentController extends Controller
 {
     public function sayHello(Twig $twig):string
     {
-        return $twig->render('HelloWorld::content.hello');
+        return $twig->render('HelloWorldDemo::content.hello');
     }
 
     public function vodo(Twig $twig){
-        return $twig->render('HelloWorld::content.vodo');
+        return $twig->render('HelloWorldDemo::content.vodo');
     }
 }
