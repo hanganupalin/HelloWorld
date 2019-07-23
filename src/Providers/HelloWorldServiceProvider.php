@@ -13,7 +13,7 @@ use Plenty\Plugin\ServiceProvider;
 class HelloWorldServiceProvider extends ServiceProvider{
 
     /**
-     * Register service provider
+     * Register service provider222
      */
     public function register(){
         $app = $this->getApplication();
